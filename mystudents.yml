@@ -1,0 +1,22 @@
+---
+- myStudents:
+  - name: alok
+    phone: 489455689489
+    address:
+      - doorno: 65
+      - streetno: 45
+      - pincode: 44899
+
+  - name: arvind
+    phone: 1215644
+    address:
+      - doorno: 6
+      - streetno: 5
+      - pincode: 6998
+
+  - name: janani
+    phone: 45898859
+    address:
+      - doorno: 8
+      - streetno: 46
+      - pincode: 4596
