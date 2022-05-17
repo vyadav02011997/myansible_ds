@@ -7,5 +7,5 @@
     myvar3: tree
   tasks:
   - name: I want to display myvar1
-  - debug:
+    debug:
       msg: "{{myvar1}}"
