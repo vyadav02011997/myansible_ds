@@ -4,3 +4,10 @@
   tasks:
   - name: i want to execute linux command
     command: hostname -f
+    register: myvariable
+
+    #register is keyword not a varibale
+
+  - name: I want to display first task result
+    debug:
+      msg: "{{myvariable}}"
