@@ -17,6 +17,7 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
+    notify: restartedwebserver
 
   - name: I want to download remote(internet) files
     get_url:
