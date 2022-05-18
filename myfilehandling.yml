@@ -8,7 +8,12 @@
       name: apache2
       state: present
 
-  - name: copy index.html file into node side
+  - name: copy myindex.html file into node side
     copy:
       src: myindex.html
+      dest: /var/www/html/index.html
+
+  - name: copy myindex.j2 file into node side
+    template:
+      src: myindex.j2
       dest: /var/www/html/index.html
